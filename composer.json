@@ -1,0 +1,28 @@
+{
+  "name": "simple-first/php-project",
+  "description": "A simple and fast PHP project template.",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel Archer",
+      "email": "dev@danielcramer.com.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.2"
+  },
+  "require-dev": {
+    "laravel/sail": "^1.25"
+  },
+  "scripts": {
+    "start": [
+      "sail up -d"
+    ]
+  }
+}
