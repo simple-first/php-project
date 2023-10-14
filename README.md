@@ -12,29 +12,18 @@ Welcome to `simple-first/php-project`. This repository aims to be the simplest a
 
 ## Setup
 
-1. Clone this repository.
 ```shell
-git clone https://github.com/simple-first/php-project.git
-```
+# 1. Create the project
+composer create-project simple-first/php-project my-project --ignore-platform-reqs
 
-2. Navigate to the project folder.
-```shell
-cd php-project
-```
+# 2. Navigate to the project folder.
+cd my-project
 
-3. Install dependencies.
-```shell
-composer install --ignore-platform-reqs
-```
-
-## Run The Project
-
-1. Start the Docker services.
-```shell
+# 3. Start the Docker services.
 sail up -d
-```
 
-2. Open your browser and go to `localhost`.
+# 4. Open your browser and go to `localhost`.
+```
 
 You should see the Welcome message.
 
