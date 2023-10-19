@@ -18,7 +18,6 @@
     "php": "^8.2"
   },
   "require-dev": {
-    "laravel/sail": "^1.25"
   },
   "scripts": {
     "start": [

@@ -20,7 +20,7 @@ composer create-project simple-first/php-project my-project --ignore-platform-re
 cd my-project
 
 # 3. Start the Docker services.
-sail up -d
+docker-compose up -d
 
 # 4. Open your browser and go to `localhost`.
 ```
@@ -36,7 +36,6 @@ You should see the Welcome message.
 
 - PHP 8.2
 - Docker
-- Laravel Sail
 
 ## Configuration
 

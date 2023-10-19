@@ -1,8 +1,7 @@
 version: '3'
 services:
   web:
-    container_name: php-conf-chat-web
-    image: php:8.2-fpm-alpine
+    build: .
     working_dir: '/app'
     ports:
       - 80:80
